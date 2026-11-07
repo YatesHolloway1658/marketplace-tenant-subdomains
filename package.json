@@ -1,0 +1,12 @@
+{
+  "name": "marketplace-tenant-subdomains",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test src/tenant_provisioning.test.ts",
+    "start": "node --experimental-strip-types src/tenant_provisioning.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
